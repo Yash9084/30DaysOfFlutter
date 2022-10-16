@@ -13,7 +13,9 @@ class HomePage extends StatelessWidget {
         title: const Text("Catalog App"),
       ),
       body: Center(
+        child: Container(
         child: Text("Welcome to $days days of flutter by $name"),
+      ),
       ),
       drawer: const MyDrawer(),
     );
